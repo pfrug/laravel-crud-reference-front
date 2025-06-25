@@ -14,7 +14,8 @@
           <th class="border px-2 py-1">Grupo</th>
           <th class="border px-2 py-1">Término Pago</th>
           <th class="border px-2 py-1">País</th>
-          <th class="border px-2 py-1">Email</th>
+          <th class="border px-2 py-1">referencia</th>
+          <th class="border px-2 py-1">Email</th>          
           <th class="border px-2 py-1 text-center">Acciones</th>
         </tr>
       </thead>
@@ -27,6 +28,7 @@
           <td class="border px-2 py-1">{{ c.client_group?.name || '—' }}</td>
           <td class="border px-2 py-1">{{ c.payment_term?.name || '—' }}</td>
           <td class="border px-2 py-1">{{ c.country?.name || '—' }}</td>
+          <td class="border px-2 py-1">{{ c.billing_by_ref }}</td>
           <td class="border px-2 py-1">{{ c.email || '—' }}</td>
           <td class="border px-2 py-1 text-center space-x-2">
             <button title="Ver" @click="viewClient(c.id)">👁</button>
