@@ -1,0 +1,20 @@
+{
+  "name": "sidetours_front",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0",
+    "@vitejs/plugin-vue": "^4.0.0"
+  }
+}
