@@ -2,6 +2,8 @@
 
 Este proyecto es una demo básica de frontend en Vue 3, desacoplada y conectada a una API REST.
 
+Login: test@example.com - secret123
+
 ### Stack
 - HTTP Client       : Axios
 - Autenticación     : JWT (token en header Authorization)
