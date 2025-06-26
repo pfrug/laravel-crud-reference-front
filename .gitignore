@@ -3,9 +3,12 @@ dist/
 *.log
 .vite/
 .env
-.env.*
 .idea/
 .vscode/
+build/
+*.pid
+*.seed
+docker-compose.override.yml
 *.sublime-project
 *.sublime-workspace
 .DS_Store
