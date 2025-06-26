@@ -2,6 +2,11 @@
 
 Este proyecto es una demo básica de frontend en Vue 3, desacoplada y conectada a una API REST.
 
+### Stack
+- HTTP Client       : Axios
+- Autenticación     : JWT (token en header Authorization)
+- State handling    : Básico, sin librería centralizada
+
 ## Requisitos
 
 - Node.js >= 18
