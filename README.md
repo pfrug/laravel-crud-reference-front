@@ -1,4 +1,4 @@
-# Sidetours Front
+# Laravel crud reference Front
 
 Este proyecto es una demo básica de frontend en Vue 3, desacoplada y conectada a una API REST.
 
